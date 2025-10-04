@@ -39,5 +39,10 @@ namespace Tool_Usages
             //textBox1.Text = "Hakka Halmiev .Net Developer";
             label9.Text = textBox1.Text;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label13.Text = textBox2.Text + " " + textBox3.Text + " " + textBox4.Text;
+        }
     }
 }
