@@ -27,5 +27,10 @@ namespace Tool_Usages
         {
             listBox1.Items.Add(textBox2.Text + " " + textBox3.Text + " " + textBox4.Text + " " + textBox5.Text );
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(maskedTextBox1.Text + "" + maskedTextBox2.Text);
+        }
     }
 }
